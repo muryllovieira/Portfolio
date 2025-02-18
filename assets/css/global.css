@@ -13,6 +13,15 @@ body {
     color: #fff;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .main {
     margin: 1rem;
     padding: .5rem;
@@ -21,7 +30,7 @@ body {
 }
 
 .main::before,
-.main::after{
+.main::after {
     content: '';
     background-image: url(/assets/img/background.svg);
     background-repeat: no-repeat;
@@ -35,7 +44,7 @@ body {
     z-index: -1;
 }
 
-.main::after{
+.main::after {
     content: '';
     top: auto;
     left: auto;
@@ -51,8 +60,8 @@ body {
         margin: 1rem auto;
     }
 
-    .main::before, 
-    .main::after{
+    .main::before,
+    .main::after {
         width: 70vw;
     }
 
